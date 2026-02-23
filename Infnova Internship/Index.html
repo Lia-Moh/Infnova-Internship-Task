@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INFNOVA Academy - Technology Courses</title>
+  <meta name="description" content="Master new skills with expert-led technology courses. Learn Web Development, Data Science, Cloud Computing, and more.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/homepage.css">
+  <link rel="icon" href="assets/photo_1_2026-02-20_22-02-16.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">
+          <img src="assets/photo_1_2026-02-20_22-02-16.jpg" alt="INFNOVA Academy">
+        </a>
+        
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="index.html" class="active">Courses</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="sign-in">Sign In</a></li>
+            <li><button class="btn btn-primary" onclick="window.location.href='#'">Enroll Now</button></li>
+          </ul>
+        </nav>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero hero-home">
+      <div class="container">
+        <h1>Explore Our Courses</h1>
+        <p class="hero-subtitle">
+          Master new skills with expert-led courses designed for the modern learner.
+          Start your learning journey today with INFNOVA Academy.
+        </p>
+      </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+      <div class="container">
+        <div class="search-container">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" id="searchInput" class="search-input" placeholder="Search courses, instructors...">
+        </div>
+        <p class="course-count" id="courseCount">Showing 8 of 8 courses</p>
+      </div>
+    </section>
+
+    <!-- Courses Grid -->
+    <section class="courses-section">
+      <div class="container">
+        <div class="courses-grid" id="coursesGrid">
+          <!-- Course Card 1 - Web Development -->
+          <article class="course-card">
+            <div class="card-image">
+              <img src="assets/photo_2_2026-02-20_22-02-16.jpg" alt="Full Stack Web Development Bootcamp">
+              <span class="tag tag-intermediate">Intermediate</span>
+            </div>
+            <div class="card-content">
+              <p class="course-category">WEB DEVELOPMENT</p>
+              <h3><a href="course.html">Full Stack Web Development Bootcamp</a></h3>
+              <p class="instructor">Instructor: Lidetu Tadesse</p>
+              <hr>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 12 weeks</span>
+                <span><i class="fas fa-users"></i> 3,124</span>
+                <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Course Card 2 - Data Science -->
+          <article class="course-card">
+            <div class="card-image">
+              <img src="assets/photo_3_2026-02-20_22-02-16.jpg" alt="Practical Machine Learning">
+              <span class="tag tag-advanced">Advanced</span>
+            </div>
+            <div class="card-content">
+              <p class="course-category">DATA SCIENCE</p>
+              <h3><a href="#">Practical Machine Learning</a></h3>
+              <p class="instructor">Instructor: Bereket Tesfaye</p>
+              <hr>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 10 weeks</span>
+                <span><i class="fas fa-users"></i> 1,742</span>
+                <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Course Card 3 - Design -->
+          <article class="course-card">
+            <div class="card-image">
+              <img src="assets/photo_5_2026-02-20_22-02-16.jpg" alt="UI/UX Design for Modern Products">
+              <span class="tag tag-beginner">Beginner</span>
+            </div>
+            <div class="card-content">
+              <p class="course-category">DESIGN</p>
+              <h3><a href="#">UI/UX Design for Modern Products</a></h3>
+              <p class="instructor">Instructor: Hana Alemayehu</p>
+              <hr>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 8 weeks</span>
+                <span><i class="fas fa-users"></i> 2,891</span>
+                <span class="rating"><i class="fas fa-star"></i> 4.7</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Course Card 4 - Cloud Computing -->
+          <article class="course-card">
+            <div class="card-image">
+              <img src="assets/photo_6_2026-02-20_22-02-16.jpg" alt="Cloud Engineering with AWS">
+              <span class="tag tag-intermediate">Intermediate</span>
+            </div>
+            <div class="card-content">
+              <p class="course-category">CLOUD COMPUTING</p>
+              <h3><a href="course.html">Cloud Engineering with AWS</a></h3>
+              <p class="instructor">Instructor: Samuel Getachew</p>
+              <hr>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 9 weeks</span>
+                <span><i class="fas fa-users"></i> 2,015</span>
+                <span class="rating"><i class="fas fa-star"></i> 4.6</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Course Card 5 - Mobile Development -->
+          <article class="course-card">
+            <div class="card-image">
+              <img src="assets/photo_9_2026-02-20_22-02-16.jpg" alt="Mobile App Development With Flutter">
+              <span class="tag tag-advanced">Advanced</span>
+            </div>
+            <div class="card-content">
+              <p class="course-category">MOBILE DEVELOPMENT</p>
+              <h3><a href="#">Mobile App Development With Flutter</a></h3>
+              <p class="instructor">Instructor: Natnael Desta</p>
+              <hr>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 10 weeks</span>
+                <span><i class="fas fa-users"></i> 2,563</span>
+                <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Course Card 6 - Security -->
+          <article class="course-card">
+            <div class="card-image">
+              <img src="assets/photo_12_2026-02-20_22-02-16.jpg" alt="Cybersecurity Foundations">
+              <span class="tag tag-beginner">Beginner</span>
+            </div>
+            <div class="card-content">
+              <p class="course-category">SECURITY</p>
+              <h3><a href="#">Cybersecurity Foundations</a></h3>
+              <p class="instructor">Instructor: Meklit Girma</p>
+              <hr>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 6 weeks</span>
+                <span><i class="fas fa-users"></i> 1,489</span>
+                <span class="rating"><i class="fas fa-star"></i> 4.7</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Course Card 7 - Data Analytics -->
+          <article class="course-card">
+            <div class="card-image">
+              <img src="assets/photo_2026-02-23_06-15-33.jpg" alt="Data Analytics with Python">
+              <span class="tag tag-beginner">Beginner</span>
+            </div>
+            <div class="card-content">
+              <p class="course-category">DATA SCIENCE</p>
+              <h3><a href="#">Data Analytics with Python</a></h3>
+              <p class="instructor">Instructor: Abel Hailu</p>
+              <hr>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 7 weeks</span>
+                <span><i class="fas fa-users"></i> 2,674</span>
+                <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Course Card 8 - Blockchain -->
+          <article class="course-card">
+            <div class="card-image">
+              <img src="assets/photo_14_2026-02-20_22-02-16.jpg" alt="Blockchain & Fintech Systems">
+              <span class="tag tag-advanced">Advanced</span>
+            </div>
+            <div class="card-content">
+              <p class="course-category">BLOCKCHAIN</p>
+              <h3><a href="#">Blockchain & Fintech Systems</a></h3>
+              <p class="instructor">Instructor: Yonas Bekele</p>
+              <hr>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 11 weeks</span>
+                <span><i class="fas fa-users"></i> 1,568</span>
+                <span class="rating"><i class="fas fa-star"></i> 4.5</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h4>INFNOVA Academy</h4>
+          <p>Empowering learners worldwide with cutting-edge technology courses.</p>
+          <p>Start your journey to success with expert-led training.</p>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Instructors</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Terms Of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 INFNOVA Technologies. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>

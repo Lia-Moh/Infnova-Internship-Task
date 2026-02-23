@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Engineering with AWS | INFNOVA Academy</title>
+  <meta name="description" content="Learn cloud engineering with AWS. Master Docker, CI/CD, Infrastructure as Code, and system design in this comprehensive 9-week course.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/course.css">
+  <link rel="icon" href="assets/photo_1_2026-02-20_22-02-16.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="Index.html" class="logo">
+          <img src="assets/photo_1_2026-02-20_22-02-16.jpg" alt="INFNOVA Academy">
+        </a>
+        
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="Index.html">Courses</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="sign-in">Sign In</a></li>
+            <li><button class="btn btn-primary" onclick="window.location.href='#'">Enroll Now</button></li>
+          </ul>
+        </nav>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Back Link -->
+    <div class="container">
+      <div class="back-link">
+        <a href="Index.html"><i class="fas fa-arrow-left"></i> Back to Courses</a>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="course-hero">
+      <div class="container">
+        <div class="course-hero-content">
+          <div class="course-hero-text">
+            <span class="course-category-badge">CLOUD COMPUTING</span>
+            <h1>Cloud Engineering with AWS</h1>
+            <p class="course-description">
+              Learn how modern companies deploy and scale applications in the cloud.
+              Build resilient infrastructure and automate deployments, and understand cost-efficient architecture.
+            </p>
+            
+            <div class="course-stats">
+              <div class="stat-item">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <span>Instructor: <strong>Samuel Getachew</strong></span>
+              </div>
+              <div class="stat-item">
+                <i class="fas fa-clock"></i>
+                <span>9 weeks</span>
+              </div>
+              <div class="stat-item">
+                <i class="fas fa-users"></i>
+                <span>2,015 enrolled</span>
+              </div>
+              <div class="stat-item rating">
+                <i class="fas fa-star"></i>
+                <span>4.6</span>
+              </div>
+            </div>
+            
+            <div class="level-badge">
+              <span>Intermediate Level</span>
+            </div>
+          </div>
+          
+          <div class="course-hero-image">
+            <img src="assets/photo_6_2026-02-20_22-02-16.jpg" alt="Cloud Engineering with AWS Course">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="course-main">
+      <div class="container">
+        <div class="course-layout">
+          <!-- Left Column -->
+          <div class="course-left">
+            <!-- What You'll Learn -->
+            <div class="content-card">
+              <h2><i class="fas fa-book-open"></i> What You'll Learn</h2>
+              <ul class="check-list">
+                <li><i class="fas fa-check-circle"></i> AWS</li>
+                <li><i class="fas fa-check-circle"></i> Docker</li>
+                <li><i class="fas fa-check-circle"></i> CI/CD</li>
+                <li><i class="fas fa-check-circle"></i> Infrastructure</li>
+                <li><i class="fas fa-check-circle"></i> System Design</li>
+              </ul>
+            </div>
+
+            <!-- Course Description -->
+            <div class="content-card">
+              <h2>Course Description</h2>
+              <p>
+                Learn how modern companies deploy and scale applications in the cloud.
+                Build resilient infrastructure, automate deployments, and understand cost-efficient architecture.
+              </p>
+              <p>
+                This comprehensive course is designed to provide you with practical, hands-on experience and real-world skills. 
+                You'll work on projects that simulate actual industry scenarios, giving you the confidence to apply your knowledge immediately.
+              </p>
+            </div>
+
+            <!-- Instructor -->
+            <div class="content-card">
+              <h2>Your Instructor</h2>
+              <div class="instructor-profile">
+                <div class="instructor-avatar">SG</div>
+                <div class="instructor-info">
+                  <h3>Samuel Getachew</h3>
+                  <p class="instructor-title">Senior Cloud Architect, AWS Certified</p>
+                </div>
+              </div>
+              <p class="instructor-bio">
+                Samuel is a cloud computing expert with over 10 years of experience in the industry. 
+                His teaching approach focuses on practical, real-world applications that prepare students 
+                for actual industry challenges.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Right Column - Enrollment Card (FIXED SPACING) -->
+          <div class="course-right">
+            <div class="enroll-card">
+              <h3 class="enroll-title">Enroll Today</h3>
+              <p class="enroll-subtitle">Join 2,015 students already enrolled</p>
+              
+              <!-- Enroll Now button with bottom margin -->
+              <button class="btn btn-primary btn-block enroll-btn">Enroll Now</button>
+              
+              <!-- Wishlist button with bottom margin -->
+              <button class="btn btn-outline btn-block wishlist-btn" id="wishlistBtn">
+                <i class="far fa-heart"></i> Add to Wishlist
+              </button>
+
+              <h4 class="includes-title">This course includes:</h4>
+              <ul class="includes-list">
+                <li><i class="fas fa-check-circle"></i> 9 weeks of content</li>
+                <li><i class="fas fa-check-circle"></i> Lifetime access</li>
+                <li><i class="fas fa-check-circle"></i> Certificate of completion</li>
+                <li><i class="fas fa-check-circle"></i> Access on Mobile & Desktop</li>
+                <li><i class="fas fa-check-circle"></i> Downloadable resources</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h4>INFNOVA Academy</h4>
+          <p>Empowering learners worldwide with cutting-edge technology courses.</p>
+          <p>Start your journey to success with expert-led training.</p>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Instructors</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Terms Of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 INFNOVA Technologies. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

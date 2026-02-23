@@ -1,0 +1,292 @@
+/* ===== BACK LINK ===== */
+.back-link {
+  padding: 24px 0;
+}
+
+.back-link a {
+  color: var(--text-medium);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: var(--transition);
+  font-weight: 500;
+}
+
+.back-link a:hover {
+  color: var(--primary-color);
+}
+
+/* ===== COURSE HERO ===== */
+.course-hero {
+  background: var(--primary-color);
+  color: var(--text-white);
+  padding: 40px 0;
+  border-radius: 0;
+}
+
+@media (min-width: 768px) {
+  .course-hero {
+    border-radius: var(--radius-xl);
+    margin: 0 40px 40px;
+  }
+}
+
+.course-hero-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .course-hero-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.course-category-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+.course-hero-text h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .course-hero-text h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.course-description {
+  font-size: 1rem;
+  margin-bottom: 24px;
+  opacity: 0.95;
+}
+
+@media (min-width: 768px) {
+  .course-description {
+    font-size: 1.125rem;
+  }
+}
+
+.course-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stat-item i {
+  font-size: 16px;
+}
+
+.stat-item.rating {
+  background: #fef3c7;
+  color: #92400e;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+}
+
+.stat-item.rating i {
+  color: #fbbf24;
+}
+
+.level-badge {
+  background: #e0f2fe;
+  color: #0369a1;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.course-hero-image img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ===== COURSE MAIN ===== */
+.course-main {
+  padding: 0 0 60px;
+}
+
+.course-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 992px) {
+  .course-layout {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+/* ===== CONTENT CARDS ===== */
+.content-card {
+  background: var(--bg-white);
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+.content-card h2 {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-dark);
+  font-size: 1.25rem;
+}
+
+.content-card h2 i {
+  color: var(--primary-color);
+}
+
+.content-card p {
+  margin-bottom: 16px;
+  color: var(--text-medium);
+}
+
+.content-card p:last-child {
+  margin-bottom: 0;
+}
+
+/* ===== CHECK LIST ===== */
+.check-list {
+  list-style: none;
+}
+
+.check-list li {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: var(--text-medium);
+}
+
+.check-list li i {
+  color: var(--secondary-color);
+  font-size: 18px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* ===== INSTRUCTOR ===== */
+.instructor-profile {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.instructor-avatar {
+  width: 56px;
+  height: 56px;
+  background: var(--primary-color);
+  color: var(--text-white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.instructor-info h3 {
+  font-size: 1.125rem;
+  margin-bottom: 4px;
+}
+
+.instructor-title {
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+.instructor-bio {
+  color: var(--text-medium);
+  line-height: 1.6;
+}
+
+/* ===== ENROLL CARD ===== */
+.enroll-card {
+  background: var(--bg-white);
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  position: sticky;
+  top: 100px;
+}
+
+.enroll-title {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  color: var(--text-dark);
+}
+
+.enroll-subtitle {
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+/* ===== FIXED BUTTON SPACING ===== */
+.enroll-btn {
+  margin-bottom: 12px;
+}
+
+.wishlist-btn {
+  margin-bottom: 24px;
+}
+
+/* Alternative: If you prefer using classes instead of IDs */
+.btn-block + .btn-block {
+  margin-top: 12px;
+}
+
+.includes-title {
+  margin: 20px 0 12px;
+  color: var(--text-dark);
+  font-size: 1rem;
+}
+
+.includes-list {
+  list-style: none;
+}
+
+.includes-list li {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-medium);
+  font-size: 14px;
+}
+
+.includes-list i {
+  color: var(--secondary-color);
+  font-size: 16px;
+}
